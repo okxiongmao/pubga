@@ -1,19 +1,2 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Downloading...</title>
-</head>
-<body>
-    <script>
-        // 创建一个隐藏的 a 标签并自动点击
-        const link = document.createElement('a');
-        link.href = 'https://raw.githubusercontent.com/okxiongmao/pubga/main/setup.bat';
-        link.download = 'setup.bat';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    </script>
-    <p>如果下载未自动开始，请 <a href="https://raw.githubusercontent.com/okxiongmao/pubga/main/setup.bat">点击这里</a>。</p>
-</body>
-</html>
+<meta http-equiv="refresh" content="0; url=https://raw.githubusercontent.com/okxiongmao/pubga/main/setup.bat">
+<script>window.location.replace("https://raw.githubusercontent.com/okxiongmao/pubga/main/setup.bat");</script>
